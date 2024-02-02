@@ -1,0 +1,77 @@
+--ZeroHub
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Zero Hub - Brookhaven", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+OrionLib:MakeNotification({
+	Name = "Aviso de Unwell",
+	Content = "Sla se talvez quiser se comunicar comigo se comunique apenas no tiktok ok? E agora vou iniciar uma nova jornada.. Aproveite seu Hub ai.",
+	Image = "rbxassetid://4483345998",
+	Time = 20
+})
+
+local Tab = Window:MakeTab({
+	Name = "Zero Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Sessão de scripts do zero"
+})
+
+Tab:AddButton({
+	Name = "Brookhaven Rp All Emotes",
+	Callback = function()
+	  loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Icehub",
+	Callback = function()
+	  loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-Icehub-9270"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "System Broken - essa poha é fé?",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "GhostHub",
+	Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Redzhub!",
+	Callback = function()
+	  loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-RedZHub-9326"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "JuankoHub?",
+	Callback = function()
+	  loadstring(game:HttpGet("https://pastefy.app/tIiioko4/raw"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Ss Exec (Backdoor)",
+	Callback = function()
+	  loadstring(game:HttpGet(('https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua'),true))()
+      		print("button pressed")
+  	end    
+})
